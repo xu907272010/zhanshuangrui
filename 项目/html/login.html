@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div id="newloginDialog" class="newloginDialog">
+        <div class="fixed-wrap"></div>
+        <div class="newlogin flex flex-ac flex-pc">
+            <div class="newlogin_con">
+                <div>
+                    <p class="gototitle flex ftc ft18 c333"><span class="it1 codevar cf0">手机验证码登录</span> <span
+                            class="liner"></span> <span class="codevar it1">账户登录</span></p>
+                    <div class="gotologin_con">
+                        <div>
+                            <div class="setting settinguser pl15 flex flex-ac"><span class="pr10"></span> <input
+                                    type="text" placeholder="请输入手机号" maxlength="11" class="it1"></div>
+                            <div class="setting settingcode  pl15 flex flex-pj flex-ac rela"><input type="text"
+                                    placeholder="请输入短信验证码" maxlength="4" class="it1"> <a
+                                    class="ft14 ftc inputcode"><span id="getcodes" class="codevar">获取验证码</span></a>
+                                <div id="popup-captcha"></div>
+                            </div>
+                            <!---->
+                        </div>
+                        <!---->
+                        <div class="bindusergray cfff ft14 ftc mt20 codevar">登录</div>
+                        <p class="flex flex-pj flex-ac otherlogin"><span class="loginstype"><a
+                                    href="https://passport.epet.com/Oauth.html?type=4&amp;returnurl=https%3A%2F%2Fcat.epet.com%2F%23%23%23"
+                                    class="zhifubao"></a> <a
+                                    href="https://passport.epet.com/Oauth.html?type=3&amp;returnurl=https%3A%2F%2Fcat.epet.com%2F%23%23%23"
+                                    class="weixin"></a> <a
+                                    href="https://passport.epet.com/Oauth.html?type=2&amp;returnurl=https%3A%2F%2Fcat.epet.com%2F%23%23%23"
+                                    class="QQ"></a></span> <span class="que ft12 c999"><a
+                                    class="mr codevar">手机快速注册</a><span onclick="openSDK()"
+                                    class="codevar">遇到问题？</span></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+/*鍏叡寮圭獥 BY ZXR 鍒涘缓浜�2017-1-5*/
+.public-pop-shadow{width: 100%;height: 100%;top: 0;left: 0;background: rgba(0,0,0,.7);}
+.public-pop-content{width: 680px;height: 330px;margin: auto;top: 0;bottom: 0;left: 0;right: 0;border-radius: 10px;}
+.public-pop-head{height: 40px;border-bottom: 1px solid #dbdbdb;}
+.public-pop-head p,.public-pop-head a{line-height: 40px;}
+.public-pop-head a{font-size: 34px;color: #a4a4a4;}
+.pop-table{height: 180px;width:100%;display: table;}
+.table-cell{display: table-cell;vertical-align: middle;}
+.public-center-tip{width: 100%;}
+.public-pop-para{line-height: 26px;}
+.hasimg .hasimg-tip{width: 270px; text-align: left; margin-left: 15px;}
+.hasimg img{vertical-align: -8px;}
+.public-pop-btns a{width: 100px;line-height: 40px; border-radius: 5px;}
+.public-pop-btns .bgred{background: #f03e3e;}
+.public-pop-btns .bgred:hover{color: white;}
+.public-pop-btns .bggrey{border: 1px solid #d2d2d2;margin-left: 26px;}
+.public-pop-btns .bggrey:hover{color: #999;}
+.public-pop-btns a {cursor: pointer;} 
